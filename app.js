@@ -51,8 +51,6 @@ app.use(function(err, req, res, next) {
 //  console.log('Example app listening on port 5000!');
 // });
 
-app.listen(process.env.PORT, process.env.IP, function(){
-  console.log(" I am listening on some port");
-});
+
 
 module.exports = app;
