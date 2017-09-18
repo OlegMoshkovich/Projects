@@ -11,6 +11,11 @@ a:hover {
 p{
   padding-top:100px;
 }
+.thoughts{
+   text-align:left;
+   font-size: 30px;
+   padding-top:20px;
+}
 
 /* Custom default button */
 .btn-default,
