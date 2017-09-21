@@ -11,6 +11,24 @@ a:hover {
 p{
   padding-top:100px;
 }
+.bottom{
+  padding-top:5px;
+  padding-bottom:10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.carousel-control.left, .carousel-control.right{
+    background: none !important;
+    filter: progid:none !important;>
+}
+
+.carousel-control .glyphicon-menu-left, .carousel-control .glyphicon-menu-right {
+  color: black;
+  text-shadow: none;
+   top: 350px;
+}
+
 .thoughts{
    text-align:left;
    font-size: 30px;
