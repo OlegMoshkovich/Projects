@@ -32,10 +32,12 @@ p{
 }
 
 .carousel-control .glyphicon-menu-left, .carousel-control .glyphicon-menu-right {
-  color: black;
+  color: grey;
   text-shadow: none;
-   top: 350px;
+  top: 290px;
+
 }
+
 
 .thoughts{
    text-align:left;
