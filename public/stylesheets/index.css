@@ -29,12 +29,14 @@ p{
 .carousel-control.left, .carousel-control.right{
     background: none !important;
     filter: progid:none !important;>
+    overflow: hidden
 }
 
 .carousel-control .glyphicon-menu-left, .carousel-control .glyphicon-menu-right {
   color: white;
   text-shadow: none;
   top: 290px;
+  overflow: hidden;
 
 }
 
