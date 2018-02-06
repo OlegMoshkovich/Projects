@@ -28,6 +28,16 @@ app.use('/thoughts', thoughts);
 app.use('/resume', cv);
 app.use('/work', index);
 
+app.get('/hello', function(req, res){
+  res.json([
+    {"title":"Trees","artist":"Reena Vaswani","url":"https://www.google.com/search?q=girls+scouts&ie=utf-8&oe=utf-8&client=firefox-b-1-ab","image":"http://localhost:4000/images/environment1.png","thumbnail_image":"http://localhost:4000/images/avatar1.png"},
+    {"title":"Mountain","artist":"Kate Dobbs","url":"https://www.google.com/search?q=girls+scouts&ie=utf-8&oe=utf-8&client=firefox-b-1-ab","image":"http://localhost:4000/images/environment2.png","thumbnail_image":"http://localhost:4000/images/avatar2.png"},
+    {"title":"More Trees","artist":"Jane Smith","url":"https://www.google.com/search?q=girls+scouts&ie=utf-8&oe=utf-8&client=firefox-b-1-ab","image":"http://localhost:4000/images/environment3.png","thumbnail_image":"http://localhost:4000/images/avatar3.png"},
+    {"title":"More Mountain","artist":"Emma Brownstein","url":"https://www.google.com/search?q=girls+scouts&ie=utf-8&oe=utf-8&client=firefox-b-1-ab","image":"http://localhost:4000/images/environment4.png","thumbnail_image":"http://localhost:4000/images/avatar4.png"},
+    {"title":"Rocks","artist":"Sophia Perez","url":"https://www.google.com/search?q=girls+scouts&ie=utf-8&oe=utf-8&client=firefox-b-1-ab","image":"http://localhost:4000/images/environment5.png","thumbnail_image":"http://localhost:4000/images/avatar5.png"}]
+);
+});
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
